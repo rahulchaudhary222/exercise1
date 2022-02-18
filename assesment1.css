@@ -1,0 +1,310 @@
+body {
+  font: normal normal normal 14px/17px Verdana;
+  width: 100vw;
+}
+a {
+  text-align: left;
+  font: normal normal bold 10px/13px Verdana;
+  letter-spacing: 0.66px;
+  color: #afa6a7;
+}
+#graphic-contrainer {
+  width: 100vw;
+  height: 65vh;
+  background: #afa6a7 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+}
+.contrainer {
+  width: 45vw;
+  margin: 50px auto;
+}
+.contrainer h1 {
+  margin-bottom: 20px;
+}
+.contrainer p {
+  margin-bottom: 20px;
+}
+.item_container {
+  width: 49vw;
+  margin: 50px auto;
+  text-align: center;
+}
+.item_container h1 {
+  margin-bottom: 20px;
+}
+.item_container p {
+  font: normal normal normal 14px/15px Verdana;
+}
+.card_container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 30%;
+  text-align: left;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+}
+.card div {
+  width: 90%;
+  margin: auto;
+}
+.card div h2 {
+  font: normal normal normal 33px/37px Times New Roman;
+  margin: 0;
+}
+.price {
+  font: normal normal bold 18px/44px Verdana;
+  letter-spacing: 0px;
+  color: #afa6a7;
+}
+.flexed {
+  display: flex;
+  justify-content: space-around;
+}
+.half {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+.padding {
+  padding: 5%;
+}
+.margin {
+  margin: auto;
+}
+.round_btn {
+  width: 100%;
+  height: 6vh;
+  border: 2px solid #000000;
+  border-radius: 26px;
+  opacity: 1;
+  background-color: white;
+  text-align: center;
+  font: normal normal normal 10px/12px Verdana;
+  letter-spacing: 0.66px;
+  color: #000000;
+  cursor: pointer;
+}
+#graphic {
+  width: 50vw;
+  height: 100%;
+  background-image: url("img/t5_bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+#graphic div {
+  margin-top: 22%;
+}
+#graphic2 {
+  width: 50vw;
+  height: 100%;
+  background-image: url("img/t5_bg2@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+#graphic2 div:first-child {
+  margin-top: 8%;
+  width: 8%;
+  margin-left: 5%;
+}
+#graphic2 div:nth-child(2) {
+  margin-top: 8%;
+  width: 40%;
+  font: normal normal normal 14px/34px Verdana;
+  margin-right: 5%;
+}
+.logo {
+  width: 109px;
+  height: 47px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.nav_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.social_logo {
+  margin: 10px 3px;
+  width: 20px;
+  height: 20px;
+}
+h1 {
+  font: normal normal normal 50px/60px Times New Roman;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+.rect_btn {
+  width: 14vw;
+  height: 8vh;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+#graphic-contrainer2 {
+  padding-top: 5%;
+  width: 100vw;
+  height: fit-content;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  margin: 0;
+}
+.pLarge {
+  font: normal normal normal 14px/30px Verdana;
+}
+.collageimg {
+  margin: 2.5%;
+  width: 95%;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 45vw;
+  margin: 40px auto;
+}
+.footer div {
+  width: 49%;
+}
+.footer h2 {
+  font: normal normal bold 22px/26px Times New Roman;
+  letter-spacing: 0px;
+  color: #000506;
+  text-shadow: 0px 3px 6px #ffe30f27;
+}
+.vl {
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 130px;
+  margin: auto;
+  text-align: center;
+  width: 2px;
+}
+.rightTextAlign {
+  text-align: right;
+}
+.social_logo2 {
+  margin: 10px 3px;
+  height: 20px;
+}
+.normalRoboto {
+  font: normal normal bold 14px/17px Roboto;
+}
+.emailNotification {
+  width: 100vw;
+  height: 35px;
+  background: #afa6a7 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.wedo {
+  width: 50%;
+  height: 60vh;
+}
+@media only screen and (max-width: 900px) {
+  .pLarge {
+    font: normal normal normal 14px/20px Verdana;
+  }
+  h1 {
+    font: normal normal normal 40px/48px Times New Roman;
+    letter-spacing: 0px;
+    margin: 0;
+  }
+  #graphic-contrainer {
+    height: 55vh;
+  }
+  #graphic div {
+    margin-top: 15%;
+  }
+  .wedo {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font: normal normal normal 14px/17px Verdana;
+  }
+  h1 {
+    font: normal normal normal 30px/36px Times New Roman;
+    letter-spacing: 0px;
+    margin: 0;
+  }
+  .pLarge {
+    font: normal normal normal 14px/17px Verdana;
+  }
+  #graphic-contrainer {
+    height: 45vh;
+  }
+  #graphic {
+    width: 100vw;
+  }
+  #graphic div {
+    margin-top: 12%;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+  .contrainer {
+    width: 90vw;
+    margin: 50px auto;
+  }
+  .item_container {
+    width: 98vw;
+    margin: 50px auto;
+    text-align: center;
+  }
+  #graphic2 {
+    width: 98vw;
+  }
+  .half {
+    width: 90vw;
+  }
+  .wedo {
+    height: 45vh;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 20px auto;
+  }
+  .footer div {
+    width: 49%;
+  }
+  .footer h2 {
+    font: normal normal bold 22px/22px Times New Roman;
+    letter-spacing: 0px;
+    color: #000506;
+    text-shadow: 0px 3px 6px #ffe30f27;
+  }
+}
